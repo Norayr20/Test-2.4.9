@@ -16,10 +16,10 @@ public class Student {
     public void study() {
         System.out.println("Я очень занят. " + studying);
     }
-}
 
-class JavaStudent extends Student {
-    public JavaStudent() {
-        super("Я очень занят. Прохожу курс по Java.");
+    public static class JavaStudent extends Student {
+        public JavaStudent() {
+            super("Прохожу курс по Java.");
+        }
     }
 }
